@@ -110,6 +110,18 @@ body {
     height: auto;
 }
 
+.middlesection3 {
+    text-align: center;
+    border: 5px solid rgba(204, 102, 255, 0.3);
+    margin-left: 297px;
+    width: 1300px;
+    margin-top: 25px;
+    background-color: rgba(102, 0, 102, 0.5);
+    height: 300px;
+    overflow: auto;
+}
+
+
 header {
     border-bottom: 0.1vw solid #f7b7b7;
     text-align: center;
@@ -124,9 +136,12 @@ h1 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  padding: 20px;
+  align-content: center;
+  grid-template-columns: 300px 300px 300px 300px;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 0px 0px;
+  grid-gap: 0px 10px;
   grid-template-areas:
     ". . . ."
     ". . . ."
@@ -134,6 +149,6 @@ h1 {
 }
 
 footer {
-    margin-top: 930px;
+    margin-top: 210px;
     border-top: 0.1vw solid #f7b7b7;
 }
