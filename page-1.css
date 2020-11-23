@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+
+@keyframes hoverfade {
+    0% {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    0% {
+        background-color: rgba(130, 3, 226, .1);
+    }
+
+    25% {
+        background-color: rgba(126, 32, 197, .35);
+    }
+
+    25% {
+        color: rgba(117, 99, 131, 1);
+    }
+
+    50% {
+        background-color: rgba(119, 79, 150, .5);
+    }
+
+    50% {
+        color: rgba(119, 79, 150, 1);
+    }
+
+    75% {
+        background-color: rgba(117, 99, 131, .5);
+    }
+
+    75% {
+        color: rgba(126, 32, 197, 1);
+    }
+
+    100% {
+        background-color: rgba(255, 255, 255, .5);
+    }
+
+    100% {
+        color: rgba(130, 3, 226, 1);
+    }
+}
+
+body {
+    font-family: 'Delius', cursive;
+    background-image: url(https://wallpaperaccess.com/full/869910.gif);
+    width: 100%;
+    overflow: scroll;
+}
+
+.leftbox {
+    width: 250px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    height: 900px;
+    padding-left: 0px;
+    margin: auto;
+    margin-bottom: 70px;
+    list-style: none;
+    background-image: url(https://lh4.googleusercontent.com/proxy/aVmSVJjxhQAx-0a3bWTWx4pXBY1VUYDi-GtTa3APPFyMa9nDNl8N9OSV97pebEWijUXi05EYHuEQYv0KYp7SUm76jH2GDL6eQ88ASnQPBmbGM3lldARqL1_WUd-3ipjfnJY_-kBDaiNxrfLc-Bl3gDo4S8sks0BYtueSZyYuiCEpD5i38qrC4tDD4c2H9w=s0-d);
+    float: left;
+}
+
+.leftbox li {
+    text-align: center;
+    color: aliceblue;
+}
+
+.leftboxhead {
+    font-size: 30px;
+    border-bottom: 5px solid white;
+    margin-bottom: 30px;
+}
+
+.leftboxnav {
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.leftboxnav:hover {
+    animation-name: hoverfade;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.rightbox {
+    width: 245px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    padding: 0px;
+    height: 900px;
+    margin: auto;
+    margin-bottom: 70px;
+    list-style: none;
+    background-image: url(https://wallpapercave.com/wp/wp5863467.gif);
+    float: right;
+}
+
+.rightboxhead {
+    border-bottom: 5px solid white;
+    color: aliceblue;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px
+}
+
+.rightboxinfo {
+    border: 5px solid white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.rightboxitem {
+    border-top: 5px solid white;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.middlesection {
+    text-align: center;
+    border: 5px solid rgba(204, 102, 255, 0.3);
+    margin: auto;
+    width: 1300px;
+    margin-top: 0px;
+    background-color: rgba(102, 0, 102, 0.5);
+    height: 50px;
+}
+
+header {
+    border-bottom: 0.1vw solid #f7b7b7;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    margin-top: 930px;
+    border-top: 0.1vw solid #f7b7b7;
+}
