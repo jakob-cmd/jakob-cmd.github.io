@@ -1,0 +1,45 @@
+
+<html>
+    <link rel="stylesheet" href="http_exercise.css" type="text/css"/>
+    
+    <section>
+<p class="question">What is the Hypertext Transfer Protocol (HTTP)</p>
+        <p>Transmits hypermedia documents such as HTML. Communicates between web broswers and web servers. </p>
+
+<p class="question">Why is HTTP called a stateless protocol?</p>
+        <p>It means that the server does not keep any data between seperate requests</p>
+
+<p class="question">Describe the three phases of establishing a session using client-server protocols such as HTTP</p>
+        <p>The client establishes a TCP connection (or the appropriate connection if the transport layer is not TCP).<br>
+The client sends its request, and waits for the answer.<br>
+The server processes the request, sending back its answer, providing a status code and appropriate data.</p>
+
+<p class="question">Describe the parameters on a get and post request.</p>
+        <p>Get will indicate that a resource should be fetched and post means that data is pushed to the server.</p>
+
+<p class="question">What are the HTTP response status code and What do the HTTP status codes, 200, and 404 indicate?</p>
+        <p>A HTTP response consists of the protocol version, a status code and a status text. A typical status line looks like: HTTP/1.1 404 Not Found. 
+        <br>Status code 200 indicates that the request has succeeded.
+        <br>Status code 404 indicates that the server can't find the requested resource.</p>
+
+<p class="question">What are HTTP cookies? Give an example.</p>
+        <p>A HTTP cookie is a small piece of data that a server sends to the user's web broswer. It is stored and the browser may send it back with later requests to the same server.
+        <br> Cookies are mainly used for session magament, personalization and tracking.</p>
+
+<p class="question">Why are cookies a security issue?</p>
+        <p>All cookie values are visible to, and can be changed by the end user recieving the informaiton. There can be some sensetive cookies with valuable information on which are kept to a short lifetime to prevent data leaking.</p>
+
+<p class="question">Describe session hijacking and XSS</p>
+        <p>XSS refers to cross-site scripting, probably the most dangerous and widespread method of web session hijacking.<br>
+        Attackers may send out emails or messages with a crafted link pointing to a known and trusted website but containing HTTP query parameters that exploit a known vulnerability to inject script code.</p>
+
+<p class="question">Describe Cross-site request forgery(CSRF)</p>
+        <p>It is a web security vulnerability that allows an attacker to induce users to perform actions that they do not intend to perform. </p>
+
+<p class="question">What are Cross-site HTTP requests (CORS) and what requests use CORS?</p>
+        <p>HTTP-header based mechanic that allows a server to indicate any other origin such as domain, protocol or port than its own from which a broswer should permit loading of resources.
+        <br>Invocations, web fonts, WebGL textures, images/videos and css shapes from images are all examples of which requests use CORS.</p>
+    
+        
+        </section>
+</html>

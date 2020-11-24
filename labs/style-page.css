@@ -1,0 +1,109 @@
+body { font-family: 'Delius', cursive; } 
+
+body { 
+   background-color: #FFFFFF;
+   color: #000000; 
+   background-image: url(https://wallpapercave.com/wp/wp4918883.jpg)
+} 
+
+p {
+    color: aliceblue;
+}
+
+#nav-labs ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header {
+   font-family: 'Syncopate', sans-serif;
+   color: aliceblue;
+   border-bottom: 0.1vw solid #f7b7b7;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   text-align: center;
+    float: left;
+}
+.logo { 
+   height: 5vh;
+   float: right;
+}
+
+.panel {
+   border: 0.1vw solid #e8e6e6;
+   border-radius: 0.5vw;
+   padding: 1vw;
+   margin: 1vh 0;
+}
+
+footer {
+   margin-top: 10vh;
+   border-top: 0.1vw solid #f7b7b7;
+}
+
+.navbar {
+  align-content: center;
+  border: 5px solid green;
+  padding: 10px;
+  margin: 23px;
+  text-align: center;
+  background-color: green;
+}
+
+.nav {
+    list-style-type: none;
+}
+
+li.nav {
+    color: white;
+    background-color: black;
+    display: inline;
+    text-align: center;
+    width: 100%;
+    margin: 50px;
+    padding: 20px;
+    border: 5px solid black
+}
+
+.markcalc {
+    align-items: center;
+    text-align: center;
+    border: 5px solid black;
+    font-size: 20px;
+    margin: auto;
+    padding-bottom: 50px;
+    border-radius: 50px;
+}
+
+.form {
+    align-items:center;
+    text-align: left;
+    border: 5px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+.calcbutton {
+    margin-right: 70px
+    
+}
+
+.calculate {
+    padding-left: 10px;
+}
+
+
+footer {
+    border-top: 5px solid black;
+    margin-top: 50px;
+    font-size: 30px;
+    color: aliceblue;
+}
+.footertext {
+    display: inline;
+    padding-right: 94px
+    
+    
+}
