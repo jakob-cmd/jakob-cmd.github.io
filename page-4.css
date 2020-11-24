@@ -97,16 +97,7 @@ body {
     margin-bottom: 10px;
     width: 1300px;
     background-color: rgba(102, 0, 102, 0.5);
-    height: 1000px;
-}
-
-.flex-box {
-	display: inline;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;
+    height: 1250px;
 }
 
 header {
@@ -146,7 +137,28 @@ a {
     ". . . .";
 }
 
+.toplist2 {
+  display: grid;
+  list-style: none;
+  margin: auto;
+  margin-top: 420px;
+  padding: auto;
+  text-align: center;
+  align-content: center;
+  grid-template-columns: 300px;
+  grid-template-rows: 50px;
+  grid-gap: 0px 10px;
+  grid-template-areas:
+    ". ."
+    ". ."
+    ". .";
+}
+
 .toplist1 li {
+    font-size: 30px;
+}
+
+.toplist2 li {
     font-size: 30px;
 }
 
@@ -155,6 +167,6 @@ h1 {
 }
 
 footer {
-    margin-top: 930px;
+    margin-top: 10px;
     border-top: 0.1vw solid #f7b7b7;
 }
