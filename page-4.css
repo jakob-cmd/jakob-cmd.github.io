@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+
+@keyframes hoverfade {
+    0% {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    0% {
+        background-color: rgba(130, 3, 226, .1);
+    }
+
+    25% {
+        background-color: rgba(126, 32, 197, .35);
+    }
+
+    25% {
+        color: rgba(117, 99, 131, 1);
+    }
+
+    50% {
+        background-color: rgba(119, 79, 150, .5);
+    }
+
+    50% {
+        color: rgba(119, 79, 150, 1);
+    }
+
+    75% {
+        background-color: rgba(117, 99, 131, .5);
+    }
+
+    75% {
+        color: rgba(126, 32, 197, 1);
+    }
+
+    100% {
+        background-color: rgba(255, 255, 255, .5);
+    }
+
+    100% {
+        color: rgba(130, 3, 226, 1);
+    }
+}
+
+body {
+    font-family: 'Delius', cursive;
+    background-image: url(https://wallpapercave.com/wp/wp6828949.gif);
+    width: 100%;
+    overflow: scroll;
+}
+
+.leftbox {
+    width: 250px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    height: 900px;
+    padding-left: 0px;
+    margin: auto;
+    margin-bottom: 70px;
+    list-style: none;
+    background-image: url(https://lh4.googleusercontent.com/proxy/aVmSVJjxhQAx-0a3bWTWx4pXBY1VUYDi-GtTa3APPFyMa9nDNl8N9OSV97pebEWijUXi05EYHuEQYv0KYp7SUm76jH2GDL6eQ88ASnQPBmbGM3lldARqL1_WUd-3ipjfnJY_-kBDaiNxrfLc-Bl3gDo4S8sks0BYtueSZyYuiCEpD5i38qrC4tDD4c2H9w=s0-d);
+    float: left;
+}
+
+.leftbox li {
+    text-align: center;
+    color: aliceblue;
+}
+
+.leftboxhead {
+    font-size: 30px;
+    border-bottom: 5px solid white;
+    margin-bottom: 30px;
+}
+
+.leftboxnav {
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.leftboxnav:hover {
+    animation-name: hoverfade;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.middlesection {
+    border: 5px solid rgba(204, 102, 255, 0.3);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1300px;
+    background-color: rgba(102, 0, 102, 0.5);
+    height: 1000px;
+}
+
+.flex-box {
+	display: inline;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+header {
+    border-bottom: 0.1vw solid #f7b7b7;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.iframe {
+    background-color: rgba(102, 0, 102, 0.8);
+    margin: 5px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: aliceblue;
+}
+
+.toplist1 {
+  display: grid;
+  list-style: none;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  align-content: center;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 50px 50px 50px 50px;
+  grid-gap: 0px 10px;
+  grid-template-areas:
+    ". . . ."
+    ". . . ."
+    ". . . .";
+}
+
+.toplist1 li {
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    margin-top: 930px;
+    border-top: 0.1vw solid #f7b7b7;
+}
