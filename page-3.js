@@ -30,6 +30,7 @@ function revealContentDropdown() {
 
 document.getElementById("cultureobsession").addEventListener("click", revealCultureObsession);
 
+
 function revealCultureObsession() {
     "use strict";
     const cultureContent = document.querySelector(".cultureobsessioncontent")

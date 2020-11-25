@@ -108,6 +108,10 @@ body {
     color: white;
 }
 
+.middlesecondpart {
+    border-top: 5px solid black;
+}
+
 .dropdown li {
     list-style: none;
     width: 200px;
@@ -145,6 +149,7 @@ h1 {
 }
 
 footer {
-    margin-top: 930px;
+    color: white;
+    margin-top: auto;
     border-top: 0.1vw solid #f7b7b7;
 }
