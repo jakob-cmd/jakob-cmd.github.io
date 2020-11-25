@@ -44,7 +44,7 @@
 
 body {
     font-family: 'Delius', cursive;
-    background-image: url(https://wallpaperaccess.com/full/869910.gif);
+    background-image: url(https://i.pinimg.com/originals/fa/dc/b2/fadcb24075acb650de29f258af69d830.gif);
     width: 100%;
     overflow: scroll;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .leftboxhead {
-    font-size: 30px;
+    font-size: 27px;
     border-bottom: 5px solid white;
     margin-bottom: 30px;
 }
@@ -90,52 +90,21 @@ body {
     animation-iteration-count: infinite;
 }
 
-.rightbox {
-    width: 245px;
-    border: 5px solid rgba(255, 255, 255, 0.5);
-    padding: 0px;
-    height: 900px;
-    margin: auto;
-    margin-bottom: 70px;
-    list-style: none;
-    background-image: url(https://wallpapercave.com/wp/wp5863467.gif);
-    float: right;
-}
-
-.rightboxhead {
-    border-bottom: 5px solid white;
-    color: aliceblue;
-    margin-bottom: 30px;
-    text-align: center;
-    font-size: 25px
-}
-
-.rightboxinfo {
-    border: 5px solid white;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 10px;
-    color: aliceblue;
-    border-radius: 5px;
-    width: 200px;
-    font-size: 20px;
-}
-
-.rightboxitem {
-    border-top: 5px solid white;
-    margin-top: 0px;
-    padding-top: 10px;
-    font-size: 15px;
-}
-
 .middlesection {
     text-align: center;
     border: 5px solid rgba(204, 102, 255, 0.3);
     margin: auto;
     width: 1300px;
-    margin-top: 0px;
+    margin-top: 10px;
     background-color: rgba(102, 0, 102, 0.5);
     height: 50px;
+}
+
+button {
+    font-family: cursive;
+    background-color: rgba(102, 0, 102, 0.5);
+    border: 2px solid black;
+    color: white;
 }
 
 header {
@@ -143,14 +112,12 @@ header {
     text-align: center;
     width: 50%;
     margin: auto;
+    color: aliceblue;
     font-family: 'PT Sans Caption', sans-serif;
 }
 
 h1 {
-    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.95),
-        -0.25em 0 -0.5em rgba(0, 255, 0, 0.95),
-        0.025em 0.5em 0 rgba(0, 0, 255, 0.95);
-    
+    text-align: center;
 }
 
 footer {
