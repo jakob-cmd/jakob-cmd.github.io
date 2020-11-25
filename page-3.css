@@ -97,10 +97,22 @@ body {
     width: 1300px;
     margin-top: 10px;
     background-color: rgba(102, 0, 102, 0.5);
-    height: 50px;
+    height: auto;
+    color: white;
 }
 
-button {
+#buttondropdown, #bigbutton, button {
+    font-family: cursive;
+    background-color: rgba(102, 0, 102, 0.5);
+    border: 2px solid black;
+    color: white;
+}
+
+.dropdown li {
+    list-style: none;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
     font-family: cursive;
     background-color: rgba(102, 0, 102, 0.5);
     border: 2px solid black;
@@ -114,6 +126,18 @@ header {
     margin: auto;
     color: aliceblue;
     font-family: 'PT Sans Caption', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  margin: auto;
+  padding: 20px;
+  align-content: center;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 1fr;
+  grid-gap: 0px 10px;
+  grid-template-areas:
+    ". . . .";
 }
 
 h1 {
