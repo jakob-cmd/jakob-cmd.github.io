@@ -97,7 +97,7 @@ body {
     margin-bottom: 10px;
     width: 1300px;
     background-color: rgba(102, 0, 102, 0.5);
-    height: 1250px;
+    height: 2000px;
 }
 
 header {
@@ -122,34 +122,35 @@ a {
 }
 
 .toplist1 {
-  display: grid;
-  list-style: none;
-  margin: auto;
-  padding: auto;
-  text-align: center;
-  align-content: center;
-  grid-template-columns: 300px 300px 300px 300px;
-  grid-template-rows: 50px 50px 50px 50px;
-  grid-gap: 0px 10px;
-  grid-template-areas:
-    ". . . ."
-    ". . . ."
-    ". . . .";
+    display: grid;
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    align-content: center;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-gap: 0px 10px;
+    grid-template-areas:
+        ". . . ."
+        ". . . ."
+        ". . . .";
 }
 
 .toplist2 {
-  display: grid;
-  list-style: none;
-  width: 310px;
-  margin-top: 420px;
-  text-align: center;
-  align-content: center;
-  grid-template-columns: 300px 300px 300px 300px;
-  grid-template-rows: 50px 50px 50px 50px;
-  grid-gap: 0px 10px;
-  grid-template-areas:
-    ". . . . .";
-    ". .";
+    display: grid;
+    list-style: none;
+    width: 310px;
+    margin-top: 420px;
+    text-align: center;
+    align-content: center;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-gap: 0px 10px 10px;
+    grid-template-areas:
+        ". . . . . .";
+    ". . . .";
+    ". . . .";
 }
 
 .toplist1 li {
